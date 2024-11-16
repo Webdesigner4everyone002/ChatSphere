@@ -1,0 +1,15 @@
+.chat{
+    min-height: 100vh;
+    background-image: url('https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?cs=srgb&dl=pexels-pixabay-207529.jpg&fm=jpg');
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.chat-container{
+    width: 95%;
+    height: 75vh;
+    max-width: 1000px;
+    background-color: rgb(111, 176, 233);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
